@@ -55,7 +55,7 @@ int main() {
     strcpy(company.employees[1].position, "Project Manager");
     
     // Employee 3
-    strcpy(company.employees[2].name, "Abir Hossain");
+    strcpy(company.employees[2].name, "Shahriar Ahmed");
     strcpy(company.employees[2].code, "EMP273");
     strcpy(company.employees[2].position, "Senior Developer");
     

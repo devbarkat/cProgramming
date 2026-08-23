@@ -57,12 +57,13 @@ int main() {
     
     printf("Task 3 - Company and Employee Details:\n");
     printf("Company: %s\n", company1.companyName);
-    printf("Employees:\n");
+    printf("Employees:\n\n");
     for(int i = 0; i < company1.empCount; i++) {
-        printf("  ID: %d, Name: %s, Salary: %.2f\n", 
+        printf("  ID: %d,\n Name: %s,\n Salary: %.2f\n", 
                company1.employees[i].id,
                company1.employees[i].name,
                company1.employees[i].salary);
+               printf("\n");
     }
     
     return 0;
